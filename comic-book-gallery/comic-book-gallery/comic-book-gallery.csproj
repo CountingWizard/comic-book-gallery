@@ -1,9 +1,65 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>comic_book_gallery</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp3.1\comic-book-gallery.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\comic-book-gallery.RazorAssemblyInfo.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\comic-book-gallery.RazorTargetAssemblyInfo.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\RazorDeclaration\Views\ComicBooks\Component.razor.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\ComicBooks\Detail.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\appsettings.Development.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\appsettings.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\comic-book-gallery.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\comic-book-gallery.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\comic-book-gallery.runtimeconfig.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\Properties\launchSettings.json" />
+    <Content Include="obj\comic-book-gallery.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Debug\netcoreapp3.1\comic-book-gallery.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\netcoreapp3.1\staticwebassets\comic-book-gallery.StaticWebAssets.xml" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\comic-book-gallery.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\comic-book-gallery.exe" />
+    <None Include="bin\Debug\netcoreapp3.1\comic-book-gallery.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\comic-book-gallery.Views.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\comic-book-gallery.Views.pdb" />
+    <None Include="obj\comic-book-gallery.csproj.nuget.cache" />
+    <None Include="obj\comic-book-gallery.csproj.nuget.g.props" />
+    <None Include="obj\comic-book-gallery.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\netcoreapp3.1\comic-book-gallery.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\comic-book-gallery.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\comic-book-gallery.csproj.CopyComplete" />
+    <None Include="obj\Debug\netcoreapp3.1\comic-book-gallery.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\comic-book-gallery.dll" />
+    <None Include="obj\Debug\netcoreapp3.1\comic-book-gallery.exe" />
+    <None Include="obj\Debug\netcoreapp3.1\comic-book-gallery.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\comic-book-gallery.pdb" />
+    <None Include="obj\Debug\netcoreapp3.1\comic-book-gallery.RazorAssemblyInfo.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\comic-book-gallery.RazorComponent.input.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\comic-book-gallery.RazorCoreGenerate.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\comic-book-gallery.RazorTargetAssemblyInfo.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\comic-book-gallery.TagHelpers.input.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\comic-book-gallery.TagHelpers.output.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\comic-book-gallery.Views.dll" />
+    <None Include="obj\Debug\netcoreapp3.1\comic-book-gallery.Views.pdb" />
+    <None Include="obj\Debug\netcoreapp3.1\staticwebassets\comic-book-gallery.StaticWebAssets.Manifest.cache" />
+  </ItemGroup>
 
 
 
