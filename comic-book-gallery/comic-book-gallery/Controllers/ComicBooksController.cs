@@ -19,6 +19,16 @@ namespace comic_book_gallery.Controllers
             return Content("Hello World");
             */
 
+            ViewBag.SeriesTitle = "Outsiders";
+            ViewBag.IssueNumber = 101;
+            ViewBag.Description = "<p>Final Issue of Outsiders for sale now!</p>";
+            ViewBag.Artists = new string[]
+            {
+                "Writing: Smart Guy 1",
+                "Writing: Smart Guy 2",
+                "Cover: Smart Guy 3"
+            };
+
             return View();
         }
 
