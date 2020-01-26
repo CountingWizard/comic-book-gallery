@@ -10,6 +10,21 @@ namespace comic_book_gallery.Controllers //does this mark the url or is the clas
     {
         public ActionResult Detail()  //Can I put as many actionresults as I want to make different pages? - Also what about extending the url further?
         {
+            var comicBook = new Models.ComicBook()
+            {
+                //Set values here or outside by calling ComicBook.VarName
+                SeriesTitle = "The Amazing Spider-Man",
+                IssueNumber = 700,
+                DescriptionHtml = "<p>Final Issue of Outsiders for sale now!</p>",
+                Artists = new Models.Artist[]
+                {
+                    new Models.Artist() { Name = "Smart Guy 1", Role = "Writing" },
+                    new Models.Artist() { Name = "Smart Guy 2", Role = "Drawing" },
+                    new Models.Artist() { Name = "Smart Guy 3", Role = "Editing" },
+                }
+            };
+
+
             /*
             if (DateTime.Today.DayOfWeek == DayOfWeek.Sunday)
             {
@@ -17,7 +32,6 @@ namespace comic_book_gallery.Controllers //does this mark the url or is the clas
             }
 
             return Content("Hello World");
-            */
 
             ViewBag.SeriesTitle = "Outsiders";
             ViewBag.IssueNumber = 101;
@@ -28,8 +42,9 @@ namespace comic_book_gallery.Controllers //does this mark the url or is the clas
                 "Writing: Smart Guy 2",
                 "Cover: Smart Guy 3"
             };
+            */
 
-            return View();
+            return View(comicBook);
         }
 
     }
