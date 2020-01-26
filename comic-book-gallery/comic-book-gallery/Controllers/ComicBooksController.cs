@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace comic_book_gallery.Controllers
+namespace comic_book_gallery.Controllers //does this mark the url or is the class below what determines that - Can I change this name?
 {
-    public class ComicBooksController : Controller
+    public class ComicBooksController : Controller //As mentioned above, does this mark the url path?
     {
-        public ActionResult Detail()
+        public ActionResult Detail()  //Can I put as many actionresults as I want to make different pages? - Also what about extending the url further?
         {
             /*
             if (DateTime.Today.DayOfWeek == DayOfWeek.Sunday)
