@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using comic_book_gallery.Models;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,7 @@ namespace comic_book_gallery.Controllers //does this mark the url or is the clas
     {
         public ActionResult Detail()  //Can I put as many actionresults as I want to make different pages? - Also what about extending the url further?
         {
-            var comicBook = new Models.ComicBook()
+            var comicBook = new ComicBook()
             {
                 //Set values here or outside by calling ComicBook.VarName
                 SeriesTitle = "The Amazing Spider-Man",
